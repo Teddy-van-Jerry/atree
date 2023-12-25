@@ -3,30 +3,57 @@
 
   <head>
     <script src="index.js"></script>
+    <title>Merry Christmas from Wuqiong!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       * {
-          padding: 0;
-          margin: 0;
+        padding: 0;
+        margin: 0;
+        color: white;
+        font-family: sans-serif;
       }
       .source-code {
         position: absolute;
         top: 0;
         right: 0;
         display: block;
-        background-color: #ff0000;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #F36925;
         font-weight: normal;
         padding: 8px;
         text-decoration: none;
-        border-radius: 3px;
+        border-radius: 0px;
+        transition: background-color 0.3s;
+        &:hover {
+          background-color: #E2420D;
+        }
+      }
+      .banner {
+        text-align: center;
+        margin: 0 12px;
+      }
+      .para {
+        margin-top: 8px;
+        text-align: center;
+      }
+      .color-link {
+        text-decoration: none;
+        transition: color 0.3s;
+        &:hover {
+          color: #F36925;
+        }
       }
     </style>
   </head>
 
-  <body onload="run()" style="background:black">
-    <canvas id="scene" width="500px" height="500px" style="background:black; display: block; margin: 0 auto"></canvas>
-    <a href="https://github.com/Teddy-van-Jerry/atree" class='source-code'>Source code</a>
+  <body onload="run()" style="background:black;">
+    <div style="margin: 0 -115px">
+    <canvas id="scene" width="500px" height="500px" style="background:black; display: block; margin: 0 auto;"></canvas>
+  </div>
+    <a href="https://github.com/Teddy-van-Jerry/atree" class='source-code'>Source Code</a>
+    <h1 class='banner'>
+      Merry Christmas from <a href='https://wqzhao.org' class='color-link'>Wuqiong</a>!
+    </h1>
+    <div class='para'>December 25, 2023</div>
   </body>
 
 </html>

@@ -1,7 +1,7 @@
 {
   "name": "atree",
-  "version": "0.0.0",
-  "description": "Just a simple christmas tree, based on redit story",
+  "version": "2023.0.1",
+  "description": "A Christmas tree",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
     "christmas",
     "processing"
   ],
-  "author": "Andrei Kashcha",
+  "author": "Andrei Kashcha, Wuqiong Zhao",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anvaka/atree"
+    "url": "https://github.com/Teddy-van-Jerry/atree"
   }
 }
