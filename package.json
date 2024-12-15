@@ -1,6 +1,6 @@
 {
   "name": "atree",
-  "version": "2023.0.1",
+  "version": "2024.0.1",
   "description": "A Christmas tree",
   "main": "index.js",
   "scripts": {
